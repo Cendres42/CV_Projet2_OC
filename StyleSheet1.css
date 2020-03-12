@@ -1,0 +1,355 @@
+﻿
+@media all and (max-width:480px)
+{
+    h1 {
+        font-size: 1.2em;
+    }
+    hr {
+        color :#b71c1c;
+    }
+    img {
+        display: none;
+    }
+
+    body {
+        text-align: justify;
+    }
+
+    .prenom {
+        color: #00695C;
+    }
+
+    .dev {
+        text-decoration: underline;
+        text-decoration-color: #00695C;
+    }
+
+    #elementContact {
+        justify-content: center;
+        text-align: left;
+    }
+
+
+    #conteneurPage {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        border: 1px solid grey;
+       
+    }
+
+    #conteneurG, a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #00695C;
+             
+    }
+    #conteneurG p, a {
+            padding-left: 5px;
+            color:whitesmoke;
+        }
+    #conteneurG {
+        padding-bottom: 10px;
+    }
+
+    #conteneurD {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    #iconesLoisirs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: whitesmoke;
+    }
+
+    #elementMoi {
+        justify-content: center;
+    }
+
+
+    #conteneurD h2 {
+        color: #00695C;
+        font-size: 1.2em;
+    }
+
+    #elementExperiences h2 {
+        font-size: 1.1em;
+    }
+    .cont {
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+    }
+
+    #elementFormations {
+        padding-right: 10px;
+    }
+   .tailleIcones i
+   {
+       color:#6ef7c9;
+       font-size:0.5em;
+       margin-right:5px;
+   }
+   ul
+   {
+       list-style-type:circle;
+   }
+   .el {
+            padding-right: 30px;
+            font-weight: bold;
+            min-width: 50px;
+        }
+
+    #elementFormations ul {
+        padding-left: 25px;
+    }
+   
+
+#recommandations {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 14rem;
+}
+
+}
+@media all and (min-width: 480px) and (max-width: 800px) {
+    .tailleIcones i {
+        color: #6ef7c9;
+        font-size: 0.5em;
+        margin-right: 5px;
+    }
+
+    ul {
+        list-style-type: circle;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    hr {
+        color: #b71c1c;
+    }
+
+    img {
+        display: none;
+    }
+
+    body {
+        text-align: justify;
+    }
+
+    .prenom {
+        color: #00695C;
+    }
+
+    .dev {
+        text-decoration: underline;
+        text-decoration-color: #00695C;
+    }
+
+   
+    #conteneurPage {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        border: 1px solid grey;
+    }
+
+    #conteneurG, a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #00695C;
+        color: whitesmoke;
+    }
+
+        #conteneurG p, a {
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+    #conteneurG {
+        padding-bottom: 30px;
+    }
+
+    #conteneurD {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+
+    #iconesLoisirs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 200px;
+        color: whitesmoke;
+    }
+
+    #elementMoi {
+        max-width: 150px;
+    }
+
+
+    #conteneurD h2 {
+        color: #00695C;
+        font-size: 1.2em;
+    }
+
+    #elementExperiences h2 {
+        font-size: 1.1em;
+    }
+
+    .cont {
+        display: flex;
+        padding-right: 15px;
+    }
+
+    #elementFormations, #elementCompetences {
+        padding-right: 15px;
+    }
+
+    .el {
+        padding-right: 50px;
+        font-weight: bold;
+        min-width: 150px;
+    }
+
+    #elementFormations ul {
+        padding-left: 45px;
+    }
+
+    #recommandations {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1.5rem;
+        margin-right: 14rem;
+    }
+}
+    @media all and (min-width: 800px) {
+        .tailleIcones i {
+            color: #6ef7c9;
+            font-size: 0.5em;
+            margin-right: 5px;
+        }
+
+        ul {
+            list-style-type: circle;
+        }
+
+        body {
+            text-align: justify;
+        }
+
+        hr {
+            color: #6ef7c9;
+        }
+
+        .prenom {
+            color: #00695C;
+        }
+
+        .dev {
+            text-decoration: underline;
+            text-decoration-color: #00695C;
+        }
+
+        #elementFormations, #elementCompetences {
+            padding-right: 15px;
+        }
+
+        #conteneurPage {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border: 1px solid grey;
+            width: 900px;
+            margin: auto;
+        }
+
+        #conteneurG, a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #00695C;
+        }
+
+            #conteneurG p, a {
+                padding-left: 10px;
+                color: whitesmoke;
+            }
+
+        #conteneurG {
+            padding-bottom: 100px;
+        }
+
+        #conteneurD {
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+        }
+
+      
+        #iconesLoisirs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: whitesmoke;
+        }
+
+        #elementMoi {
+            max-width: 250px;
+        }
+
+        #conteneurG h1 {
+            background-color: #6ef7c9;
+            color: black;
+            text-align: center;
+        }
+
+        #conteneurD h2 {
+            color: #00695C;
+            font-size: 1.2em;
+        }
+
+        #elementExperiences h2 {
+            font-size: 1.1em;
+        }
+
+        .cont {
+            display: flex;
+            padding-right: 30px;
+        }
+
+        .el {
+            padding-right: 40px;
+            font-weight: bold;
+            min-width: 160px;
+        }
+
+        #elementFormations ul {
+            padding-left: 75px;
+        }
+
+        #elementCompetences ul {
+            padding-left: 75px;
+        }
+    
+
+    #recommandations {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 14rem;
+    }
+        p {
+            margin: 0;
+        }
+     }
