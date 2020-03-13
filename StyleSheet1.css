@@ -5,7 +5,7 @@
         font-size: 1.2em;
     }
     hr {
-        color :#b71c1c;
+        color: #6ef7c9;
     }
     img {
         display: none;
@@ -46,12 +46,9 @@
              
     }
     #conteneurG p, a {
-            padding-left: 5px;
-            color:whitesmoke;
+             color:whitesmoke;
         }
-    #conteneurG {
-        padding-bottom: 10px;
-    }
+   
 
     #conteneurD {
         display: flex;
@@ -66,7 +63,8 @@
         color: whitesmoke;
     }
 
-    #elementMoi {
+    #element
+    {
         justify-content: center;
     }
 
@@ -115,13 +113,56 @@
     margin-left: 1.5rem;
     margin-right: 14rem;
 }
+    #velo, #puzzle, #marche {
+        border: 2px solid white;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        margin: 2px;
+    }
 
+    #velo {
+        background-image: url("bike.png");
+    }
+
+    #puzzle {
+        background-image: url("puzzle.png");
+    }
+
+    #marche {
+        background-image: url("walk.png");
+    }
+
+    #elementTitre {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .margeG {
+        padding: 10px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
 }
+
+/*!!<<<<<<<<<<<<<<<<<<<<<<<!!!!!ECRANS MOYENS!!!!!!>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
 @media all and (min-width: 480px) and (max-width: 800px) {
     .tailleIcones i {
         color: #6ef7c9;
         font-size: 0.5em;
         margin-right: 5px;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
     }
 
     ul {
@@ -133,11 +174,7 @@
     }
 
     hr {
-        color: #b71c1c;
-    }
-
-    img {
-        display: none;
+        color: #6ef7c9;
     }
 
     body {
@@ -153,7 +190,7 @@
         text-decoration-color: #00695C;
     }
 
-   
+
     #conteneurPage {
         display: flex;
         flex-direction: column-reverse;
@@ -169,15 +206,7 @@
         color: whitesmoke;
     }
 
-        #conteneurG p, a {
-            padding-right: 5px;
-            padding-left: 5px;
-        }
-
-    #conteneurG {
-        padding-bottom: 30px;
-    }
-
+    
     #conteneurD {
         display: flex;
         flex-direction: column;
@@ -232,124 +261,203 @@
         margin-left: 1.5rem;
         margin-right: 14rem;
     }
+
+    #elementLoisirs {
+        height: 100px;
+    }
+    #velo, #puzzle, #marche {
+        border: 2px solid white;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        margin: 2px;
+    }
+
+    #velo {
+        background-image: url("bike.png");
+    }
+
+    #puzzle {
+        background-image: url("puzzle.png");
+    }
+
+    #marche {
+        background-image: url("walk.png");
+    }
+
+    #elementTitre {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .margeG {
+        padding: 10px;
+        padding-bottom: 40px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
 }
-    @media all and (min-width: 800px) {
-        .tailleIcones i {
-            color: #6ef7c9;
-            font-size: 0.5em;
-            margin-right: 5px;
-        }
+    /*!!<<<<<<<<<<<<<<<<<<<<<<<!!!!!ECRANS GRANDS!!!!!!>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-        ul {
-            list-style-type: circle;
-        }
+@media all and (min-width: 800px) {
+    img {
+        height: 130px;
+        width: 130px;
+        margin: 15px;
+    }
 
-        body {
-            text-align: justify;
-        }
+    .tailleIcones i {
+        color: #6ef7c9;
+        font-size: 0.5em;
+        margin-right: 5px;
+    }
 
-        hr {
-            color: #6ef7c9;
-        }
+    ul {
+        list-style-type: circle;
+    }
 
-        .prenom {
-            color: #00695C;
-        }
+    body {
+        text-align: justify;
+    }
 
-        .dev {
-            text-decoration: underline;
-            text-decoration-color: #00695C;
-        }
+    hr {
+        color: #6ef7c9;
+    }
 
-        #elementFormations, #elementCompetences {
-            padding-right: 15px;
-        }
+    .prenom {
+        color: #00695C;
+    }
 
-        #conteneurPage {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            border: 1px solid grey;
-            width: 900px;
-            margin: auto;
-        }
+    .dev {
+        text-decoration: underline;
+        text-decoration-color: #00695C;
+    }
 
-        #conteneurG, a {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: #00695C;
-        }
+    #elementFormations, #elementCompetences {
+        padding-right: 15px;
+    }
 
-            #conteneurG p, a {
-                padding-left: 10px;
-                color: whitesmoke;
-            }
+    #conteneurPage {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid grey;
+        width: 900px;
+        margin: auto;
+    }
 
-        #conteneurG {
-            padding-bottom: 100px;
-        }
+    #conteneurG, a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #00695C;
+    }
 
-        #conteneurD {
-            display: flex;
-            flex-direction: column;
-            padding-left: 30px;
-        }
-
-      
-        #iconesLoisirs {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+        #conteneurG p, a {
             color: whitesmoke;
         }
 
-        #elementMoi {
-            max-width: 250px;
-        }
+    #conteneurD {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
 
-        #conteneurG h1 {
-            background-color: #6ef7c9;
-            color: black;
-            text-align: center;
-        }
 
-        #conteneurD h2 {
-            color: #00695C;
-            font-size: 1.2em;
-        }
+    #iconesLoisirs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: whitesmoke;
+    }
 
-        #elementExperiences h2 {
-            font-size: 1.1em;
-        }
+    #elementMoi {
+        max-width: 250px;
+    }
 
-        .cont {
-            display: flex;
-            padding-right: 30px;
-        }
+    #conteneurG h1 {
+        background-color: #6ef7c9;
+        color: black;
+        text-align: center;
+    }
 
-        .el {
-            padding-right: 40px;
-            font-weight: bold;
-            min-width: 160px;
-        }
+    #conteneurD h2 {
+        color: #00695C;
+        font-size: 1.2em;
+    }
 
-        #elementFormations ul {
-            padding-left: 75px;
-        }
+    #elementExperiences h2 {
+        font-size: 1.1em;
+    }
 
-        #elementCompetences ul {
-            padding-left: 75px;
-        }
-    
+    .cont {
+        display: flex;
+        padding-right: 30px;
+    }
+
+    .el {
+        padding-right: 40px;
+        font-weight: bold;
+        min-width: 160px;
+    }
+
+    #elementFormations ul {
+        padding-left: 75px;
+    }
+
+    #elementCompetences ul {
+        padding-left: 75px;
+    }
+
 
     #recommandations {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 1.5rem;
-    margin-right: 14rem;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1.5rem;
+        margin-right: 14rem;
+        margin-bottom: 3rem;
     }
-        p {
-            margin: 0;
-        }
-     }
+
+    #velo, #puzzle, #marche {
+        border: 2px solid white;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        margin: 2px;
+        
+    }
+
+    #velo {
+        background-image: url("bike.png");
+    }
+
+    #puzzle {
+        background-image: url("puzzle.png");
+    }
+
+    #marche {
+        background-image: url("walk.png");
+    }
+
+    #elementTitre {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .margeG {
+        padding: 10px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+}
