@@ -103,7 +103,7 @@ h1 {
         font-size: 1.2em;
     }
 
-        #elementExperiences h2 {
+   #elementExperiences h2 {
         font-size: 1.1em;
     }
 
@@ -135,11 +135,6 @@ h1 {
         margin-bottom: 3rem;
     }
 
-        #recommandations p {
-            margin-top: 0;
-            margin-bottom: 5px;
-        }
-
     #velo, #puzzle, #marche {
         border: 2px solid white;
         background-repeat: no-repeat;
@@ -170,11 +165,9 @@ h1 {
     .margeG {
         padding: 10px;
     }
+ 
 
-
-    
-
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<PETITES ECRANS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<PETITS ECRANS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<§§§§§§§§§§§§§>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -240,50 +233,6 @@ h1 {
 
     #elementFormations ul {
         padding-left: 25px;
-    }
-
-
-    #recommandations {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 1.5rem;
-        margin-right: 14rem;
-    }
-
-    #recommandations p {
-        margin-top: 0;
-        margin-bottom: 5px;
-    }
-
-    #velo, #puzzle, #marche {
-        border: 2px solid white;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 50px;
-        height: 50px;
-        width: 50px;
-        margin: 2px;
-    }
-
-    #velo {
-        background-image: url("bike.png");
-    }
-
-    #puzzle {
-        background-image: url("puzzle.png");
-    }
-
-    #marche {
-        background-image: url("walk.png");
-    }
-
-    #elementTitre {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .margeG {
-        padding: 10px;
     }
 
    }
@@ -380,34 +329,8 @@ h1 {
     #elementLoisirs {
         height: 100px;
     }
-    #velo, #puzzle, #marche {
-        border: 2px solid white;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 50px;
-        height: 50px;
-        width: 50px;
-        margin: 2px;
-    }
 
-    #velo {
-        background-image: url("bike.png");
-    }
-
-    #puzzle {
-        background-image: url("puzzle.png");
-    }
-
-    #marche {
-        background-image: url("walk.png");
-    }
-
-    #elementTitre {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .margeG {
+   .margeG {
         padding: 10px;
         padding-bottom: 40px;
     }
