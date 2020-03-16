@@ -10,11 +10,11 @@ body {
     color: #00695C;
 }
 
-h1 {
+h2, h1 {
     font-size: 1.7em;
     margin-bottom:0;
 }
-h2{
+h3{
     font-size:1.3em;
 }
 body p, body a, body li {
@@ -89,13 +89,13 @@ body p, body a, body li {
     }
 
 
-    #conteneurG h1 {
+    #conteneurG h2 {
         background-color: #6ef7c9;
         color: black;
         text-align: center;
     }
 
-    #conteneurD h2 {
+    #conteneurD h3 {
         color: #00695C;
 
 
@@ -164,10 +164,10 @@ body p, body a, body li {
 
 
 @media all and (max-width:480px) {
-    h1 {
+    h2,h1 {
         font-size: 3em;
     }
-    h2 {
+    h3 {
         font-size: 2.2em;
         color: #00695C;
     }
@@ -251,10 +251,10 @@ body p, body a, body li {
         margin-right: 5px;
     }
 
-    h1 {
+    h2,h1 {
         font-size: 2.2em;
     }
-    h2{
+    h3{
         font-size:1.5em;
     }
     body p, body a, body li {
